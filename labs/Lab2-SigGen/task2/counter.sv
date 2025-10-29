@@ -9,6 +9,6 @@ module counter #(
 );
     always_ff@ (posedge clk, posedge rst)
     if(rst) count <= {WIDTH{1'b0}}; // 0000 0000
-    else count <= count + 1;
+    else count <= count + 3;
 
 endmodule

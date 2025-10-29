@@ -15,7 +15,7 @@ VL_INLINE_OPT void Vsinegen___024root___sequent__TOP__0(Vsinegen___024root* vlSe
     vlSelf->__Vdly__sinegen__DOT__count1 = ((IData)(vlSelf->rst)
                                              ? 0U : 
                                             (0xffU 
-                                             & ((IData)(1U) 
+                                             & ((IData)(3U) 
                                                 + (IData)(vlSelf->sinegen__DOT__count1))));
 }
 
